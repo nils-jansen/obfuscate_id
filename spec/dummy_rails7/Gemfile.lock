@@ -1,3 +1,10 @@
+PATH
+  remote: ../..
+  specs:
+    obfuscate_id (0.2.0)
+      rails (~> 7.0, >= 7.0.1)
+      scatter_swap (~> 0.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -171,6 +178,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
+    scatter_swap (0.0.3)
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -218,6 +226,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  obfuscate_id!
   puma (~> 5.0)
   rails (~> 7.0.1)
   selenium-webdriver
